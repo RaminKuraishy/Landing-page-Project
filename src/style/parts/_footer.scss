@@ -1,0 +1,43 @@
+@import "parts/variables";
+
+.footer-wrapper {
+  background: rgba(39, 39, 36, 0.4);
+  color: $color5;
+  padding: 45px 0px;
+}
+.footer-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  &_tittle {
+    font-weight: 700;
+    font-size: $fz;
+    line-height: 22px;
+    color: $color6;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  &_text {
+    margin: 0px 61px 25px 61px;
+  }
+  &_list {
+    margin-bottom: 35px;
+    display: flex;
+    &_item {
+      margin-left: 5px;
+      margin-right: 5px;
+      transition: 0.3s;
+      &_image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &_item:hover {
+      scale: 1.3;
+    }
+  }
+  &_info {
+    margin: 0px 46px;
+  }
+}

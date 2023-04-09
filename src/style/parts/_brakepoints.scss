@@ -1,0 +1,178 @@
+//   ------------------768px--------------------------------------
+@media (min-width: 320px) {
+  .header-page_list {
+    
+    background-color: rgba(39, 39, 36, 0.9);
+color: $color6;
+  
+  }
+  
+}
+@media (min-width: 768px) {
+  ._container {
+    padding: 0 5%;
+  }
+  .header-page_burger-menu_btn {
+    display: none;
+  }
+  .header-page__burger-menu {
+    flex-direction: row;
+  }
+  .header-page_list {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 100%;
+    margin: 40px 0px;
+    color: black;
+
+  }
+  .header-page__list__item {
+    text-align: center;
+  }
+  .main-page {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: #4e4e4e;
+    &_tittle {
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 22px;
+
+      text-transform: uppercase;
+    }
+    &_list {
+      &_item {
+        flex-direction: row;
+        &_list-wrapper {
+          margin-left: 20px;
+        }
+        &_image {
+          width: 160px;
+          height: 140px;
+          margin-bottom: 20px;
+        }
+        &_tittle {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 30px;
+        }
+        &_subtittle {
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 20px;
+          color: #7c7c7c;
+          margin-bottom: 30px;
+        }
+        &_text {
+          display: block;
+        }
+        &_hidden {
+          // display: flex;
+        }
+      }
+    }
+  }
+  .instagram-gallery {
+    &_header {
+      display: flex;
+      justify-content: space-between;
+      &_tittle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+      &_link {
+        display: block;
+
+      }
+    }
+    &_list {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+
+      &_item {
+        display: block;
+        &_image {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &_item:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+  
+}
+//   ------------------1200px--------------------------------------
+@media (min-width: 1200px) {
+  .header-page_burger-menu_btn-open {
+    display: none;
+  }
+  .header-page_burger-menu {
+    flex-direction: row;
+  }
+  .header-page_list {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 100%;
+    margin: 40px 0px;
+    color: black;
+  }
+  .header-page_list_item {
+    text-align: center;
+  }
+  .main-page_list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-page_list_item_list-wrapper {
+    margin-left: 10px;
+  }
+  .main-page_list_item_text {
+    font-size: 13.5px;
+  }
+  .instagram-gallery {
+    &_header {
+      display: flex;
+      justify-content: space-between;
+      &_tittle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+      &_link {
+        display: block;
+
+      }
+    }
+    &_list {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+      &_item {
+        display: block;
+        &_image {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &_item:nth-child(4) {
+        display: block;
+      }
+    }
+  }
+  .main-page_list_item_hidden{
+    display: flex;
+  }
+}

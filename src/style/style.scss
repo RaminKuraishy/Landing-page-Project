@@ -1,0 +1,13 @@
+@import "parts/header";
+@import "parts/main";
+@import "parts/brakepoints";
+@import "parts/footer";
+@import "parts/variables";
+._container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+body{
+  font-family: 'Roboto';
+}
